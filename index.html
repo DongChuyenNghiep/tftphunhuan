@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <script src="animation.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style1.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+
+<body>
+  <header class="header">
+    <div id="navbar">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <div class="margin1">
+                    <a class="navbar-brand" href="index.html"> <img src="pic/logoFinal.png" alt="Bootstrap"
+                            ></a>
+                  
+                </div>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse margin" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html"
+                                style="margin-right: 10px;color: white;">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false" style="color: white;">
+                                News
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark ">
+                                <li><a class="dropdown-item" href="LeagueOfLegend.html"
+                                        style="text-align: left; color: white;"><img
+                                            src="pic/LOL Logo clear background.png" alt="Bootstrap" width="40"
+                                            height="40">League Of
+                                        Legend</a></li>
+                                <li><a class="dropdown-item" href="TFTnew1.html"
+                                        style="text-align: left; color: white;"><img src="pic/tft logo.png"
+                                            alt="Bootstrap" width="40" height="40">Teamfight
+                                        Tactics</a>
+                                </li>
+                                <li><a class="dropdown-item" href="LoRnew1.html"
+                                        style="text-align: left; color: white;"><img src="pic/Runterra Logo.png"
+                                            alt="Bootstrap" width="40" height="40">Legend of Runterra</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus1.html" style="margin-right: 10px; color: white">About
+                                us</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+  <div id="demo" class="carousel slide" data-bs-ride="carousel" data-bs-pause="false">
+
+    <!-- The slideshow/carousel -->
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1800">
+          <img src="pic/league3.png" alt="Los Angeles" class="d-block w-100" >
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="font-size: 75px; text-align:center;" class = "background-tint">WELCOME TO OUR E-SPORTS PAGE</h1>
+            <p style="font-size: 40px;">Where we update you on the news and meta of all games</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <img src="pic/league1.jpg" alt="Chicago" class="d-block w-100" >
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="font-size: 75px; text-align:center;" class = "background-tint">WELCOME TO OUR E-SPORTS PAGE</h1>
+            <p style="font-size: 40px;">Where we update you on the news and meta of all games</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1800">
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="font-size: 75px; text-align:center;" class = "background-tint">WELCOME TO OUR E-SPORTS PAGE</h1>
+            <p style="font-size: 40px;">Where we update you on the news and meta of all games</p>
+          </div>
+          <img src="pic/league2.jpg" alt="New York" class="d-block w-100" >
+        </div>
+      </div>
+  </div>
+
+
+
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
+
+        <!-- Github -->
+        <a class="btn text-white btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+            class="fab fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2023 Copyright: Team 1
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+</html>

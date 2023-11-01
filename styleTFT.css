@@ -1,0 +1,148 @@
+.fish1{
+  position: absolute;
+  top: 300px;
+   --animate-duration: 0.75s;
+  max-width: 2000px;
+  margin: 300px;
+
+ 
+
+}
+
+
+.fish{
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+
+.card-title{
+  text-align: center;
+  font-size: 25px;
+}
+.card-text{
+  text-align: center;
+  font-size: 18px;
+}
+.paragraph{
+    color: white;
+    margin: 200px;
+    max-width: 1600px;
+    font-size: 18px;
+    margin-top: 400px;
+  
+}
+.list{
+  margin: 20px;
+}
+body{
+  background-color: black;
+}
+
+.paragraph h1{
+  color: gold;
+  margin-top: 70px;
+}
+
+.paragraph img{
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.aboutAuthor p{
+  font-size: 30px;
+  
+}
+.aboutAuthor{
+  max-width: 1500px;
+}
+.row .card-text {
+  font-size: 18px;
+  max-width: 1000px;
+  text-align: left;
+}
+.row .card-title {
+  font-size: 28px;
+  max-width: 1000px;
+}
+.card-name{
+  width: 55%;
+  height: 35%;
+}
+
+@media (max-width: 1367px){
+  .fish1{
+    position: absolute;
+    top: 80px;
+     --animate-duration: 0.75s;
+    max-width: 2000px;
+    margin: 150px;
+    
+   
+}
+.paragraph{
+  color: white;
+  margin: 150px;
+  max-width: 1600px;
+  font-size: 22px;
+  margin-top: 250px;
+
+}
+}
+
+@media (max-width: 768px){
+  .fish1{
+    position: absolute;
+    top: 90px;
+     --animate-duration: 0.75s;
+    max-width: 2000px;
+    margin: 80px;
+    
+   
+}
+.paragraph{
+  color: white;
+  margin: 80px;
+  max-width: 1600px;
+  font-size: 18px;
+  margin-top: 250px;
+
+}
+
+.card-title{
+  font-size: 18px;
+  
+}
+.card-text{
+  font-size: 15px;
+}
+}
+
+@media (max-width: 480px){
+  .fish1{
+    position: absolute;
+    top: 60px;
+     --animate-duration: 0.75s;
+    max-width: 2000px;
+    margin: 40px;
+    
+    
+   
+}
+.paragraph{
+  color: white;
+  margin: 30px;
+  max-width: 1600px;
+  font-size: 15px;
+  margin-top: 220px;
+
+}
+
+.card-title{
+  font-size: 15px;
+  
+}
+.card-text{
+  font-size: 12px;
+}
+}
